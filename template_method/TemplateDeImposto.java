@@ -1,7 +1,8 @@
 // TEMPLATE METHOD
 // ---------------
 //
-// Temos a estrutura: INTERFACE -> ABSTRACT -> CLASS
+// Temos a estrutura: INTERFACE -> ABSTRACT -> CLASS (TEMOS O ABSTRACT ENTRE INTERFACE E CLASSE ESPECÍFICA, TUDO O QUE É REGRA EM COMUM, VAI NA ABSTRACT) 
+//(Evolução acima do Strategy, não temos só as assinaturas como os métodos de execução em comum, na qual alimento os parametros no chamador)
 //
 // No caso do imposto temos a Interface com as assinaturas de métodos pra gerar o desacoplamento
 // No caso da classe ABSTRATA, implementamos as regras em comum a serem adotadas em cada CLASSE de imposto específico
